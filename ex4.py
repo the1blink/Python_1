@@ -1,0 +1,10 @@
+palavra = input("Escreva algo com qualquer tipo de dígito: ")
+
+print (f"O tipo primitivo ddo que foi digitado é: {type(palavra)}")
+print (f"Só tem espaços? {palavra.isspace()}")
+print (f"É um número? {palavra.isnumeric()}")
+print (f"É alfabético? {palavra.isalpha()}")
+print (f"É alfa-numérico? {palavra.isalnum()}")
+print (f"Está em maiúsculas? {palavra.isupper()}")
+print (f"Está em minúsculas {palavra.islower()}")
+print (f"Está capitalizada? {palavra.istitle()}")
